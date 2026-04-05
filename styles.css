@@ -144,3 +144,9 @@ footer {
     padding: 40px;
     color: white;
 }
+
+.page-header {
+    text-align: center;
+    padding: 40px;
+    background: #eee;
+}
