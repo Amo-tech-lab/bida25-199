@@ -1,0 +1,22 @@
+.logo {
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: inline-block;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.promo {
+    background: #f4a261;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
