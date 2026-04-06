@@ -28,125 +28,51 @@ nav a:hover {
 /* hero */
 .hero {
     background: url('../images/hero.jpg') no-repeat center/cover;
-    height: 80vh;
+    height: 70vh;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-}
-
-.hero {
     position: relative;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-}
-
-.hero h1 {
-    font-size: 3rem;
 }
 
 .btn {
     background: #f4a261;
-    padding: 10px 20px;
-    color: white;
+    padding: 12px 28px;
+    color: #000;
     border: none;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-/* container */
-.container {
-    padding: 40px;
+    font-weight: bold;
+    border-radius: 50px;
 }
 
 /* cards */
-.card {
-    background: #f9f9f9;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 8px;
+.card, .gallery {
+    transition: all 0.3s ease;
 }
 
 /* gallery */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-}
-
-.gallery img {
-    width: 100%;
-    border-radius: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
 /* form */
-form {
-    max-width: 500px;
-    margin: auto;
-}
 
-input, select, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
 
-button {
-    background: black;
-    color: white;
-    padding: 10px;
-    border: none;
+form input, form select, form textarea {
+    border: 2px solid #ddd;
+    border-radius: 8px
 }
 
 /* footer */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
     background: #000;
     color: #fff;
 }
 
-.logo {
-    color: white;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.nav-links {
-    display: inline-block;
-}
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-}
-
-.promo {
-    background: #f4a261;
-    text-align: center;
-    padding: 40px;
-    color: white;
-}
-
-.page-header {
-    text-align: center;
-    padding: 40px;
-    background: #eee;
-}
+/* Mobile-first responsiveness allready handled by bootstrap and my original media queries can be added here */
