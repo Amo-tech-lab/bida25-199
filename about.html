@@ -4,80 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="vieport" content="width=device-width, initial-scale=1.0">
-    <title>About Kutlo's Hairdo</title>
+    <title>Kutlo's Hairdo Bookings | About</title>
+
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6F" crossorigin="anonymous">
+
+    <!--CSS Link-->
      <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <!--Navigation-->
-    <header>
-         <nav>
-        <h2 class="logo">Kutlo's Hairdo</h2>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services & Pricing</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="bookings.html">Book Appointment</a>
-            <a href="contact.html">Contact & Feedback</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+
+            <!--Remove that top Kutlo-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services & Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bookings.html">Book Appointment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact & Feedback</a></li>
+                    
+                </ul>
+            </div>
         </div>
     </nav>
-    </header>
 
-    <!--header-->
-    <section class="page-header">
-        <h1>About Kutlo's Hairdo</h1>
-    </section>
-
-    <!--Left salon image-->
-    <section class="about">
-        <div class="about-container">
-            <img src="images/salon.jpg" alt="Kutlo's Hair Salon">
+    <!--About Section-->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1>About Kutlo's Hairdo</h1>
+                <p class="lead">Kutlo's Hairdo is a growing beauty and hairstyling brand in Gaborone Main Mall. Founded by Kutlo, the brand has gained popularity through creative styling, transformation looks and strong engagement on social media platforms such as TikTok.The salon specializes in braids, cornrows, natural hairstyles and kids hairstyles offering clean, modern and professional results to every client.</p>
+                <h3>Our Location</h3>
+                <p>We are located at Gaborone Main Mall,opposite FNB Branch,<br>Making it easier and convenient for clients within greater Gaborone to access our services.</p>
+                <h3>Our Commitment</h3>
+                <p>At Kutlo's Hairdo, we prioritize professionalism, customer satisfaction and high quality service delivery.Every hairstyle is done with attention to detail ensuring cients leave feeling confident and satisfied.Our goal is to provide and use: </p>
+                <ul>
+                    <li>*100% hygiene, sanitised tools</li>
+                    <li>*Experienced stylists</li>
+                    <li>*24/7 online booking</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="images/about-kutlo.jpg" alt="Kutlo's Hairdo Salon" width="550" height="400" class="img-fluid rounded-4 shadow">
+            </div>
         </div>
-    </section>
-
-    <!--baackground section-->
-    <section class="container">
-        <h2>Our Story</h2>
-        <p>
-            Kutlo's Hairdo is a growing beauty and hairstyling brand in Gaborone Main Mall. Founded by Kutlo, the brand has gained popularity through creative styling, transformation looks and strong engagement on social media platforms such as TikTok.
-        </p>
-        <p>
-            The salon specializes in braids, cornrows, natural hairstyles and kids hairstyles offering clean, modern and professional results to every client.
-        </p>
-    </section>
-
-    <!--Location section-->
-    <section class="container">
-        <h2>Our Location</h2>
-        <p>
-            We are located at Gaborone Main Mall opposite FNB Branch, making it easy and convenient for clients within greater Gaborone to access our services.
-        </p>
-    </section>
-
-    <!--professionalism section-->
-    <section class="container">
-        <h2>Our Commitment</h2>
-        <p>
-            At Kutlo's Hairdo, we prioritize professionalism, customer satisfaction and high quality service delivery. Every hairstyle is done with attention to detail ensuring clients leave feeling confident and satisfied.
-        </p>
-        <p>
-            Our goal is to provide a clean, reliable and modern salon experience that reflects our brand identity and growing online presence.
-        </p>
-    </section>
-
-    <!--Call to Action-->
-    <section class="promo">
-        <h2>Ready for Your Next Look?</h2>
-        <p>Book your appointment today and experience professional hair care.</p>
-        <a href="bookings.html" class="btn">Book Now</a>
-    </section>
-
-    <!--Footer-->
-    <footer>
-        <p>@ 2026 Kutlo's Hairdo, Gaborone Main Mall</p>
-    </footer>
+    </div>
     
+    <footer><div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Kutlo's Hairdo</h5>
+                    <p>Main Mall, Gaborone, Botswana<br>Creative styling since 2024</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>+267 71 234 567<br>hello@kutloshairdo.co.bw<br>Mon-Sat 8am-6pm</p>
+                    <p class="small mt-4">© 2026 Kutlo's Hairdo Bookings. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap and JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
