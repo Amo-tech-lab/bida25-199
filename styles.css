@@ -58,11 +58,11 @@ nav a:hover {
 /* button */
 .btn {
     background: #f4a261;
-    padding: 12px 28px;
+    padding: 8px 15px;
     color: #000;
     border: none;
     font-weight: bold;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 /* cards */
@@ -94,7 +94,7 @@ form input, form select, form textarea {
 footer {
     text-align: center;
     padding: 40px 20px;
-    background: #000;
+    background: #f4a261;
     color: #fff;
 }
 
