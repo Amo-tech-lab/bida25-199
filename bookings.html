@@ -43,10 +43,14 @@
             <div class="col-lg-8">
                 <h1 class="text-center mb-4">Book Your Appointment</h1>
                 <form id="bookingForm" class="card p-4 shadow-sm needs-validation" novalidate>
+
+                    <!--Full name-->
                     <div class="mb-3">
                         <label class="form-label">Full Name <span class="text-danger">*</span></label>
                         <input type="text" class="form-control" required>
                     </div>
+
+                    <!--Hairstyle Preference / Service-->
                     <div class="mb-3">
                         <label class="form-label">Hairstyle Preference / Service <span class="text-danger">*</span></label>
                         <select class="form-select" required>
@@ -58,6 +62,8 @@
                             <option>Kids Styles - P180</option>
                         </select>
                     </div>
+
+                    <!--Phone Number and Preferred Date-->
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Phone Number <span class="text-danger">*</span></label>
@@ -68,14 +74,20 @@
                             <input type="date" id="appointment-date" class="form-control" required>
                         </div>
                     </div>
+
+                    <!--Preferred Time-->
                     <div class="mb-3">
                         <label class="form-label">Preferred Time <span class="text-danger">*</span></label>
                         <input type="time" class="form-control" required>
                     </div>
+
+                    <!--Comments-->
                     <div class="mb-3">
                         <label class="form-label">Additional Comments</label>
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
+
+                    <!--Submit Button-->
                     <button type="submit" class="btn w-100">Submit Booking Request</button>
                 </form>
             </div>
