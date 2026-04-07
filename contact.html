@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <title>Kutlo's Hairdo Bookings | Contact & Feedback</title>
+
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6F" crossorigin="anonymous">
+
+    <!--CSS Link-->
+     <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+
+            <!-- Brand / Logo-->
+        <a class="navbar-brand" href="index.html">
+            <span style="color:#f4a261;">KUTLO'S</span> HAIRDO
+        </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services & Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bookings.html">Book Appointment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact & Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Contact and feedback content-->
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Contact & Feedback</h1>
+
+        <div class="row g-5">
+
+            <!--Feedback form-->
+            <div class="col-lg-7">
+                <div class="card shadow-sm p-4">
+                    <h4 class="card-title mb-4">Send us your feedback or inquiry</h4>
+                    <form id="feedbackForm" class="needs-validation" novalidate>
+
+                        <!--Full name-->
+                        <div class="mb-3">
+                            <label class="form-label">Your Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" required>
+                        </div>
+
+                        <!--Email Address-->
+                        <div class="mb-3">
+                            <label class="form-label">Email Address <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" required>
+                        </div>
+
+                        <!--Phone Number-->
+                        <div class="mb-3">
+                            <label class="form-label">Phone Number (optional)</label>
+                            <input type="tel" class="form-control" placeholder="+267">
+                        </div>
+
+                        <!--Feedback Message-->
+                        <div class="mb-4">
+                            <label class="form-label">Your Message / Feedback <span class="text-danger">*</span></label>
+                            <textarea class="form-control" rows="6" required placeholder="Tell us what you think or ask any question..."></textarea>
+                        </div>
+
+                        <!--Submit button-->
+                        <button type="submit" class="btn w-100">Send Message</button>
+                        
+                        <p class="text-center text-muted small mt-3">
+                            We usually reply within 2 hours via WhatsApp or email.
+                        </p>
+                    </form>
+            </div>
+        </div>
+
+        <!--Contact details-->
+        <div class="col-lg-5">
+                <div class="card shadow-sm h-100 p-4">
+                    <h4 class="mb-4">Visit or Call Us</h4>
+                    
+                    <div class="mb-4">
+                        <strong>Kutlo's Hairdo Salon</strong><br>
+                        Main Mall, Gaborone, Botswana<br>
+                        Opposite the FNB Branch
+                    </div>
+
+                    <div class="mb-4">
+                        <strong>Phone / WhatsApp:</strong><br>
+                        +267 71 234 567
+                    </div>
+
+                    <div class="mb-4">
+                        <strong>Email:</strong><br>
+                        hello@kutloshairdo.co.bw
+                    </div>
+
+                    <div>
+                        <strong>Business Hours:</strong><br>
+                        Monday - Saturday: 8:00 AM - 6:00 PM<br>
+                        Sunday: Closed
+                    </div>
+
+                    <div class="mt-auto pt-4 border-top">
+                        <p class="small text-muted">
+                            Follow us on TikTok <strong>@kutloshairdo</strong> for the latest styles and promotions!
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Kutlo's Hairdo</h5>
+                    <p>Main Mall, Gaborone, Botswana<br>Creative styling since 2024</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>+267 71 234 567<br>hello@kutloshairdo.co.bw<br>Mon-Sat 8am-6pm</p>
+                    <p class="small mt-4">© 2026 Kutlo's Hairdo Bookings. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap and JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
