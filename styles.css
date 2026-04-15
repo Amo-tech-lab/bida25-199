@@ -44,7 +44,7 @@ nav a:hover {
     flex-direction: column;
     text-align: center;
     position: relative;
-    padding: 100px 20px; /* added this jsut now for hero text not resizing on mobile */
+    padding: 100px 20px; /* added this for hero text not resizing on mobile */
 }
 
 .hero::after {
@@ -57,7 +57,7 @@ nav a:hover {
     background: rgba(0, 0, 0, 0.35);
 }
 
-/* added this jsut now for hero text not resizing on mobile */
+/* added this for hero text not resizing on mobile */
 
 @media (max-width: 768px) {
     .hero h1 {
@@ -117,4 +117,3 @@ footer {
     color: #fff;
 }
 
-/* Mobile-first responsiveness allready handled by bootstrap and my original media queries can be added here */
